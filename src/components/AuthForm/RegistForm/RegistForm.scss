@@ -1,0 +1,25 @@
+.registration-form-container {
+    margin: 2vh 2vw;
+    width: calc(100% - 4vw);
+    height: calc(100% - 4vh);
+}
+
+.registration-form-title-block {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.registration-form-title-logo {
+    position: absolute;
+    height: 45vh;
+    min-height: 200px;
+    width: auto;
+    z-index: -1;
+    right: 150px;
+    top: -6vh;
+    max-width: none;
+    max-height: none;
+}
