@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
           <NavLink
             to="/main"
             className={({ isActive }) =>
-              isActive ? "nav-link nav-link-active" : "nav-link"
+              isActive ? "navbar-link navbar-link-active" : "navbar-link"
             }
           >
             Главная
@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
           <NavLink
             to="/auth"
             className={({ isActive }) =>
-              isActive ? "nav-link nav-link-active" : "nav-link"
+              isActive ? "navbar-link navbar-link-active" : "navbar-link"
             }
           >
             Вход

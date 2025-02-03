@@ -1,17 +1,17 @@
 .header-container {
   height: 12vh;
   width: 100vw;
-  background-color: rgb(20, 20, 20);
+  background-color: #141414;
   border-bottom: 3px solid #e42626;
 }
 
 .header-content {
-  padding: 1vh 5vw;
-  height: 10vh;
-  width: 90vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 90vw;
+  height: 10vh;
+  padding: 1vh 5vw;
 }
 
 .header-title-block {
@@ -30,17 +30,15 @@
 }
 
 .header-title-logo {
+  width: auto;
   height: auto;
   max-height: 100%;
-  width: auto;
 }
 
 .header-title-text {
   font-size: 4vb;
   font-weight: 500;
   color: #e42626;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
-
-
