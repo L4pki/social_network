@@ -1,4 +1,5 @@
-import { UserRegistProps, UserRegistValidProps } from "../types/user";
+
+import { UserRegistProps, UserRegistValidProps } from "../types/User";
 import axiosInstance from "./AxiosInstance";
 
 export const userRegistration = async (userData: UserRegistProps) => {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./AuthPage.scss";
-import RegistForm from "../../components/AuthForm/RegistForm/RegistForm.tsx";
+import RegistForm from "../../components/AuthForm/RegistForm/RegistForm";
 
 const AuthPage: React.FunctionComponent = () => {
   return (
