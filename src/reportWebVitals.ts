@@ -1,4 +1,3 @@
-// src/reportWebVitals.ts
 import { onCLS, onFID, onFCP, onLCP, onTTFB } from 'web-vitals';
 
 const reportWebVitals = (onPerfEntry?: (metric: { name: string; value: number }) => void): void => {

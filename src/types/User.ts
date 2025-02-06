@@ -3,13 +3,13 @@ export interface UserAuthProps {
     password: string;
 }
 
-export interface UserRegistProps {
+export interface UserRegisterProps {
     email: string;
     password: string;
     login: string;
 }
 
-export interface UserRegistValidProps {
+export interface UserRegisterValidProps {
     email: string;
     code: string;
 }

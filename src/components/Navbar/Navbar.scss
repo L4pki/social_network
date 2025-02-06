@@ -8,20 +8,20 @@
 .navbar-navigate {
   list-style-type: none;
   justify-content: center;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
-.nav-link {
+.navbar-link {
   font-size: 2vb;
   font-weight: 500;
   color: #e42626;
-  margin: 0px 20px;
-  padding: 0px;
+  margin: 0 20px;
+  padding: 0;
   text-decoration: none;
 }
 
-.nav-link-active {
+.navbar-link-active {
   font-size: 2.1vb;
   font-weight: 500;
   color: #b34b4b;

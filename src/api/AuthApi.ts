@@ -1,8 +1,7 @@
-
-import { UserRegistProps, UserRegistValidProps } from "../types/User";
+import { UserRegisterProps, UserRegisterValidProps } from "../types/User";
 import axiosInstance from "./AxiosInstance";
 
-export const userRegistration = async (userData: UserRegistProps) => {
+export const userRegistration = async (userData: UserRegisterProps) => {
     try {
         const response = await axiosInstance.post("/registration/send-email", userData);
         
@@ -16,7 +15,7 @@ export const userRegistration = async (userData: UserRegistProps) => {
     }
 };
 
-export const userValidateCode = async (userData: UserRegistValidProps) => {
+export const userValidateCode = async (userData: UserRegisterValidProps) => {
     try {
         const response = await axiosInstance.post("/registration/validate-code", userData);
 
@@ -28,6 +27,6 @@ export const userValidateCode = async (userData: UserRegistValidProps) => {
             console.log("Не валидный код");
         }
     } catch (error) {
-        console.error("Ошибка при регистрации:", error);
+        console.error("Ошибка при регистрации: ", error);
     }
 }

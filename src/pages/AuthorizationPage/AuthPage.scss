@@ -1,8 +1,8 @@
 .auth-page {
-    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1;
 }
 
 .auth-page-container {
@@ -10,7 +10,7 @@
     height: 70vh;
     min-width: 300px;
     min-height: 450px;
-    background-color: rgb(20, 20, 20);
+    background-color: #141414;
     border-radius: 30px;
     border: 1px solid #e42626;
 }
