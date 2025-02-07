@@ -1,25 +1,84 @@
 .registration-form-container {
-    margin: 2vh 2vw;
-    width: calc(100% - 4vw);
-    height: calc(100% - 4vh);
+  display: flex;
+  width: 100%;
+  height: 90%;
+  position: relative;
+  z-index: 0;
+}
+
+.registration-form-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../../../assets/images/logo.png");
+  background-size: 75vb;
+  background-repeat: no-repeat;
+  background-position-x: -11vw;
+  background-position-y: -5vh;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.registration-form-content {
+  margin: 2vh 2vw;
+  width: calc(100% - 4vw);
+  height: calc(100% - 4vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .registration-form-title-block {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-    z-index: 0;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
 }
 
-.registration-form-title-logo {
-    position: absolute;
-    height: 45vh;
-    min-height: 200px;
-    width: auto;
-    z-index: -1;
-    right: 150px;
-    top: -6vh;
-    max-width: none;
-    max-height: none;
+.registration-form-title-text {
+  margin: 0px;
+  font-size: 8vb;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin: 0;
+  padding: 0;
+}
+
+.registration-form-title-text-description {
+  margin: 0px;
+  color: var(--primary-color);
+  opacity: 0.7;
+}
+
+.registration-form-input-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+}
+
+.registration-form-input-block-element {
+  width: 90%;
+  height: 20%;
+  background-color: var(--background-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 15px;
+  padding-left: 15px;
+  color: var(--text-color);
+}
+
+.registration-form-input-block-element::placeholder {
+  color: var(--text-color);
+}
+
+.registration-form-input-block-element:focus {
+  border-color: var(--primary-color);
+  outline: none;
 }

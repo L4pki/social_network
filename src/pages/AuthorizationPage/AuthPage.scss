@@ -10,7 +10,19 @@
     height: 70vh;
     min-width: 300px;
     min-height: 450px;
-    background-color: #141414;
+    overflow: hidden;
+    background-color: var(--secondary-color);
     border-radius: 30px;
-    border: 1px solid #e42626;
+    border: 1px solid var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.goto-login {
+    color: var(--primary-color);
+    margin-top: 10px;
+    margin-bottom: 22px;
 }

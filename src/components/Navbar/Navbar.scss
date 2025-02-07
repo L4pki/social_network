@@ -15,7 +15,7 @@
 .navbar-link {
   font-size: 2vb;
   font-weight: 500;
-  color: #e42626;
+  color: var(--primary-color);
   margin: 0 20px;
   padding: 0;
   text-decoration: none;
@@ -24,5 +24,5 @@
 .navbar-link-active {
   font-size: 2.1vb;
   font-weight: 500;
-  color: #b34b4b;
+  color: var(--accent-color);
 }

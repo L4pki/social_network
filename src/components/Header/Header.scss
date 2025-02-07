@@ -1,8 +1,8 @@
 .header-container {
   height: 12vh;
   width: 100vw;
-  background-color: #141414;
-  border-bottom: 3px solid #e42626;
+  background-color: var(--secondary-color);
+  border-bottom: 3px solid var(--primary-color);
 }
 
 .header-content {
@@ -38,7 +38,7 @@
 .header-title-text {
   font-size: 4vb;
   font-weight: 500;
-  color: #e42626;
+  color: var(--primary-color);
   margin: 0;
   padding: 0;
 }
