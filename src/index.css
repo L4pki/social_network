@@ -4,6 +4,7 @@
   --accent-color: #b34b4b; /* Акцентный цвет */
   --background-color: rgb(30, 30, 30); /* Цвет фона */
   --text-color: #aba9a9; /* Цвет текста */
+  --error-color: #c606df; /* Цвет ошибки */
 }
 
 body {

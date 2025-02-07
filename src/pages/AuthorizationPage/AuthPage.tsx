@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./AuthPage.scss";
 import RegistrationForm from "../../components/AuthForm/RegistrationForm/RegistrationForm";
+import LoginForm from "../../components/AuthForm/LoginForm/LoginForm";
 
 const AuthPage: React.FunctionComponent = () => {
   const [isLoginMode, setIsLoginMode] = useState<boolean>(false);
@@ -11,7 +12,21 @@ const AuthPage: React.FunctionComponent = () => {
         {isLoginMode === false && (
           <>
             <RegistrationForm />
-            <p className="goto-login" onClick={()=> setIsLoginMode(true)}>Уже есть аккаунт?</p>
+            <div className="auth-page-buttons">
+              <p className="goto-login" onClick={() => setIsLoginMode(true)}>
+                Уже есть аккаунт?
+              </p>
+            </div>
+          </>
+        )}
+        {isLoginMode === true && (
+          <>
+            <LoginForm />
+            <div className="auth-page-buttons">
+              <p className="goto-login" onClick={() => setIsLoginMode(false)}>
+                Зарегаться?
+              </p>
+            </div>
           </>
         )}
       </div>

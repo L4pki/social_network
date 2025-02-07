@@ -60,25 +60,35 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  height: 40%;
+  width: 80%;
+  height: 100%;
 }
 
 .registration-form-input-block-element {
   width: 90%;
-  height: 20%;
+  height: 25%;
   background-color: var(--background-color);
   border: 1px solid var(--accent-color);
   border-radius: 15px;
   padding-left: 15px;
   color: var(--text-color);
+  font-size: 1.7vb;
 }
 
 .registration-form-input-block-element::placeholder {
   color: var(--text-color);
+  font-size: 1.7vb;
 }
 
 .registration-form-input-block-element:focus {
   border-color: var(--primary-color);
   outline: none;
+}
+
+.registration-form-block {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 35%;
+  justify-content: space-between;
 }

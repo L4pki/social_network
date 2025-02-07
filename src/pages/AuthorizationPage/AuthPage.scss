@@ -1,28 +1,35 @@
 .auth-page {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
 }
 
 .auth-page-container {
-    width: 35vw;
-    height: 70vh;
-    min-width: 300px;
-    min-height: 450px;
-    overflow: hidden;
-    background-color: var(--secondary-color);
-    border-radius: 30px;
-    border: 1px solid var(--primary-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  width: 35vw;
+  height: 70vh;
+  min-width: 300px;
+  min-height: 450px;
+  overflow: hidden;
+  background-color: var(--secondary-color);
+  border-radius: 30px;
+  border: 1px solid var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.auth-page-buttons {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .goto-login {
-    color: var(--primary-color);
-    margin-top: 10px;
-    margin-bottom: 22px;
+  color: var(--primary-color);
+  margin-top: 10px;
+  margin-bottom: 22px;
+  font-size: 2vb;
+  cursor: pointer;
 }
