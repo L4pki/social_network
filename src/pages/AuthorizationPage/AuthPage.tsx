@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./AuthPage.scss";
 import RegistrationForm from "../../components/AuthForm/RegistrationForm/RegistrationForm";
 import LoginForm from "../../components/AuthForm/LoginForm/LoginForm";
+import ValidateForm from "../../components/AuthForm/ValidateForm/ValidateForm";
 
 const AuthPage: React.FunctionComponent = () => {
   const [isLoginMode, setIsLoginMode] = useState<boolean>(false);
