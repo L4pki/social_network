@@ -1,5 +1,5 @@
 .header-container {
-  height: 12vh;
+  height: 128px;
   width: 100vw;
   background-color: var(--secondary-color);
   border-bottom: 3px solid var(--primary-color);
@@ -10,15 +10,15 @@
   flex-direction: row;
   justify-content: space-between;
   width: 90vw;
-  height: 10vh;
-  padding: 1vh 5vw;
+  height: 108px;
+  padding: 10px 5vw;
 }
 
 .header-title-block {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 10vh;
+  height: 108px;
 }
 
 .header-navbar-block {
@@ -26,7 +26,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 10vh;
+  height: 108px;
 }
 
 .header-title-logo {
@@ -36,7 +36,7 @@
 }
 
 .header-title-text {
-  font-size: 4vb;
+  font-size: 50px;
   font-weight: 500;
   color: var(--primary-color);
   margin: 0;
