@@ -1,0 +1,120 @@
+.validate-form-container {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .validate-form-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../../../assets/images/logo.png");
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position-x: -200px;
+    background-position-y: -60px;
+    opacity: 0.6;
+    z-index: -1;
+  }
+  
+  .validate-form-content {
+    margin: 20px 30px;
+    width: 100%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .validate-form-title-block {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+  }
+  
+  .validate-form-title-text {
+    margin: 0px;
+    font-size: 80px;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .validate-form-title-text-description {
+    margin: 0px;
+    color: var(--primary-color);
+    opacity: 0.7;
+  }
+  
+  .validate-form-input-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+  }
+  
+  .validate-form-input-block-element {
+    width: 90%;
+    height: 100%;
+    background-color: var(--background-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 15px;
+    padding-left: 15px;
+    color: var(--text-color);
+    font-size: 17px;
+  }
+  
+  .validate-form-input-block-element::placeholder {
+    color: var(--text-color);
+    font-size: 17px;
+    opacity: 0.7;
+  }
+  
+  .validate-form-input-block-element:focus {
+    border-color: var(--primary-color);
+    outline: none;
+  }
+  
+  .validate-form-block {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    justify-content: space-between;
+  }
+
+  .validate-form-description-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 45%;
+    justify-content: space-between;
+  }
+
+  .validate-form-description-text {
+    color: var(--primary-color);
+    font-size: 17px;
+    opacity: 0.7;
+    margin: 0px;
+  }
+  
+  .validate-form-input-description-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 17%;
+  }
+  
